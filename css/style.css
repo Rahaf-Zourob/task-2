@@ -1,0 +1,260 @@
+:root {
+    --very-dark-gray: #222020;
+    --gray: #c8c5c6;
+    --bright-white: #fbf8fb;
+    --white: #ffffff;
+    --bright-transparent: #c8c5c676;
+    --light-green: #59904b;
+    --green: #479434;
+    --violent: #744879;
+    --orange: #fdbc44;
+    --light-blue: #5050ce;
+    --bright-blue: #767685;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem 0;
+    background-color: var(--bright-white);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+header {
+    margin-bottom: 5rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+
+.header,
+.footer {
+    background: var(--very-dark-gray);
+    text-align: center;
+    padding: 0.5rem 0;
+    color: var(--bright-white);
+}
+
+nav {
+    padding-bottom: 1.5rem;
+}
+
+nav p {
+    color: var(--gray);
+    margin: 0.2rem 0 2rem;
+}
+
+.sections__links li {
+    margin: 0 0.8rem;
+}
+
+.sections__links li a {
+    color: var(--bright-white);
+}
+
+.sections__links li a:hover {
+    color: var(--orange);
+}
+
+.pad__section {
+    padding: 1.5rem;
+}
+
+.about__me {
+    background: var(--white);
+}
+
+.image__section {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+.image__section img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.skills {
+    background: url(../images/bg-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skills h2 {
+    color: var(--gray);
+}
+
+.my__skills {
+    padding: 0.8rem;
+    background: var(--bright-transparent);
+    border-radius: 0.5rem;
+    margin: 0.5rem 0 1rem;
+    width: 100%;
+}
+
+.my__skills li {
+    cursor: context-menu;
+    margin-right: 0.2rem;
+    padding: 0.5rem;
+    color: var(--bright-white);
+    background: var(--light-green);
+    border-radius: 0.5rem;
+}
+
+.my__skills li:hover {
+    background-color: var(--green);
+    transform: translateY(-0.2rem);
+}
+
+.my__skills li:active {
+    transform: translateY(0.2rem);
+}
+
+.projects {
+    background: var(--white);
+    position: relative;
+}
+
+.my__projects {
+    margin: 1rem 0 0 1rem;
+}
+
+article {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.task1 {
+    background: var(--violent);
+    width: 13rem;
+    height: 14.5rem;
+    position: absolute;
+    top: -27rem;
+}
+
+.task2 {
+    background: var(--orange);
+    width: 12rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+.task3 {
+    background: var(--light-blue);
+    width: 15rem;
+    height: 15rem;
+}
+
+.task4 {
+    background: var(--bright-blue);
+    width: 70rem;
+    height: 15rem;
+}
+
+.contact {
+    background-color: var(--bright-white);
+    box-shadow: 0 0 1rem var(--gray);
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid var(--light-green);
+}
+
+form {
+    padding-bottom: 1.5rem;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid var(--light-green);
+    outline: 0;
+    padding: 1rem;
+}
+
+button:hover {
+    background: var(--light-green);
+    color: var(--bright-white);
+}
+
+.felid {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: var(--orange);
+}
+
+footer a:hover {
+    color: var(--bright-white);
+}
+
+footer a:active {
+    color: var(--light-green);
+}
+
+.top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background: var(--light-blue);
+    text-align: center;
+    border-radius: 0.6rem;
+    padding: 0.1rem 0;
+}
+
+.top a {
+    font-size: 2rem;
+    color: var(--bright-white);
+}
