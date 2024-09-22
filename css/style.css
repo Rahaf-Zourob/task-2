@@ -242,7 +242,7 @@ footer a:active {
     color: var(--light-green);
 }
 
-.top {
+#top {
     position: fixed;
     right: 2rem;
     bottom: 2rem;
@@ -254,7 +254,7 @@ footer a:active {
     padding: 0.1rem 0;
 }
 
-.top a {
+#top a {
     font-size: 2rem;
     color: var(--bright-white);
 }
